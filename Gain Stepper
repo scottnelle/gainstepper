@@ -1,0 +1,24 @@
+desc:Gain Stepper (Scott Nelle)
+version: 1.0
+author: Scott Nelle
+about:
+  A simple stepped gain adjustment in 1.5 dB increments.
+  Useful for making small but noticable and precise gain
+  adjustments to determine when a track is leveled correctly.
+  Inspired by Machine's vocal check technique on Nail The Mix. 
+
+slider1:0<-3,3,1.5>Gain (dB)
+
+in_pin:left input
+in_pin:right input
+out_pin:left output
+out_pin:right output
+
+@slider
+// Execute each time sliders change.
+gainadjust= 2 ^ (slider1/6);
+
+@sample
+// Execute once per sample.
+spl0 *= gainadjust;
+spl1 *= gainadjust;
