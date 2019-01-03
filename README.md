@@ -14,7 +14,7 @@ Since Reaper doesn't have a great trim plugin built in, I've written Gain Steppe
 
 2. Find the Reaper Resources directory. Under the Options menu click "Show REAPER’s resource path in explorer/finder…" to have Reaper find this folder for you.
 
-3. Open the Effects directory within the Reaper Resources directory and copy unzipped download to that directory.
+3. Open the Effects directory within the Reaper Resources directory and copy the `Gain Stepper` file to that directory (or a subdirectory within.)
 
 4. In Reaper, scan for new plugins.
 
