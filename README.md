@@ -10,7 +10,7 @@ Since Reaper doesn't have a great trim plugin built in, I've written Gain Steppe
 
 ## Installation
 
-1. Download a zip file of this repository and unzip it.
+1. [Download a zip file of this repository](https://github.com/scottnelle/gainstepper/archive/master.zip) and unzip it.
 
 2. Find the Reaper Resources directory. Under the Options menu click "Show REAPER’s resource path in explorer/finder…" to have Reaper find this folder for you.
 
