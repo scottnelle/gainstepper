@@ -4,7 +4,7 @@ A JSFX gain utility for mixing in Reaper.
 
 ## Background
 
-In the August 2018 edition of Nail the Mix, the producer Machine details his technique for sanity checking his vocal levels by boosting or cutting the level in 1.5 dB increments using a series of trim plugins in his DAW. The idea is that if the level is about right, a cut of 1.5 dB will make it sound a little buried and a boost of 1.5 dB will make it sound a little over the top. Further cutting to 3 dB will accentuate the effect further. I've found this helpful on many other tracks in my sessions as well.
+In the August 2018 edition of Nail the Mix, Machine the producer details his technique for sanity checking his vocal levels by boosting or cutting the level in 1.5 dB increments using a series of trim plugins in his DAW. The idea is that if the level is about right, a cut of 1.5 dB will make it sound a little buried and a boost of 1.5 dB will make it sound a little over the top. Cutting or boosting by 3 dB will accentuate the effect further. I've found this helpful on many other tracks in my sessions as well.
 
 Since Reaper doesn't have a great trim plugin built in, I've written Gain Stepper to make this workflow as simple as possible. It's a slider with 5 positions: -3 db, -1.5 dB, 0 dB (Default, unity gain,) 1.5 dB, and 3 dB. With this, you can very quickly boost or cut in precise increments to implement Machine's workflow for checking that a track's relative level is approximately where it should be.
 
